@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .chip-shadow {
+    @apply shadow-md;
+  }
+  .chip-style {
+    @apply p-[7px] h-6;
+  }
+  .chip-text {
+    @apply tracking-wider font-bold uppercase text-[9px];
+  }
+  .default-transition {
+    @apply transition duration-300 ease-in-out;
+  }
+  .chip-misc {
+    @apply default-transition chip-style chip-text chip-shadow border-lime-600 border-2;
+  }
+  .chip-aerial {
+    @apply default-transition chip-style chip-text chip-shadow bg-cyan-600 shadow-cyan-600/25 hover:bg-cyan-700 hover:shadow-cyan-700/25;
+  }
+  .chip-airdribbling {
+    @apply default-transition chip-style chip-text chip-shadow bg-blue-400 shadow-blue-400/25 hover:bg-blue-500 hover:shadow-blue-500/25;
+  }
+  .chip-resets {
+    @apply default-transition chip-style chip-text chip-shadow bg-red-600 shadow-red-600/25 hover:bg-red-700 hover:shadow-red-700/25;
+  }
+  .chip-redirects {
+    @apply default-transition chip-style chip-text chip-shadow bg-pink-700 shadow-pink-700/25 hover:bg-pink-800 hover:shadow-pink-800/25;
+  }
+  .chip-rebounds {
+    @apply default-transition chip-style chip-text chip-shadow bg-indigo-700 shadow-indigo-700/25 hover:bg-indigo-800 hover:shadow-indigo-800/25;
+  }
+  .chip-ground {
+    @apply default-transition chip-style chip-text chip-shadow bg-brown-700 shadow-brown-700/25 hover:bg-brown-800 hover:shadow-brown-800/25;
+  }
+  .chip-backboard {
+    @apply default-transition chip-style chip-text chip-shadow bg-neutral-800 shadow-neutral-800/25 hover:bg-neutral-900 hover:shadow-neutral-900/25;
+  }
+  .chip-dashes {
+    @apply default-transition chip-style chip-text chip-shadow bg-emerald-800 shadow-emerald-800/25 hover:bg-emerald-900 hover:shadow-emerald-900/25;
+  }
+  .chip-ceilling {
+    @apply default-transition chip-style chip-text chip-shadow bg-orange-700 shadow-orange-700/25 hover:bg-orange-900 hover:shadow-orange-900/25;
+  }
+  .chip-wall {
+    @apply default-transition chip-style chip-text chip-shadow bg-pink-700 shadow-pink-700/25 hover:bg-pink-800 hover:shadow-pink-800/25;
+  }
+  .chip-sidewall {
+    @apply default-transition chip-style chip-text chip-shadow bg-lime-800 shadow-lime-800/25 hover:bg-lime-900 hover:shadow-lime-900/25;
+  }
+  .chip-corner {
+    @apply default-transition chip-style chip-text chip-shadow bg-darkerlime-800 shadow-darkerlime-800/25 hover:bg-darkerlime-900 hover:shadow-darkerlime-900/25;
+  }
+}
